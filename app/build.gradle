@@ -1,6 +1,5 @@
 plugins {
     id 'com.android.application'
-    apply plugin: 'com.aliyun.ams.emas-services'
 }
 
 android {
@@ -37,4 +36,5 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.taobao.android:update-main:1.1.1-open'
 }
